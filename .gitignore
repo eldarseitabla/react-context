@@ -1,0 +1,24 @@
+# Mac OS X
+.DS_Store
+
+# Editors and IDEs
+.idea/
+.vscode/
+
+# Dependencies
+node_modules/
+
+# dotenv environment variables file
+.env
+
+# Compiled output
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Output of 'npm pack'
+*.tgz

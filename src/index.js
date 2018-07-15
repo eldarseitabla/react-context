@@ -12,13 +12,6 @@ const styles = {
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      text: "",
-      contextState: {
-        count: 0,
-        increment: this.increment
-      }
-    };
   }
 
   increment = () => {
